@@ -1,6 +1,12 @@
 version: "1.0"
 projectName: JC_DMG_WORKSHOPProject
 runtimes:
+- runtimeAlias: NL_warehouse
+  assets:
+  - name: fld_111332778_stage00.projects.fld7dd818b44704839878a64986ba05e5a.integrations:invokeEchoAlt
+    type: flow
+    stepId: /0
+    reference: fld_111332778_stage00.projects.fld7dd818b44704839878a64986ba05e5a.WmPackageServiceProvider.project.jc_dmg_workshop.integrations:echo
 - runtimeAlias: JC_EDGE
   assets:
   - name: API_Gateway
