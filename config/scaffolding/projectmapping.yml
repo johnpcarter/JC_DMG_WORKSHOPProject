@@ -1,0 +1,7 @@
+version: "1.0"
+projectName: JC_DMG_WORKSHOPProject
+runtimes:
+- runtimeAlias: JC_EDGE
+  assets:
+  - name: API_Gateway
+    type: DAF
