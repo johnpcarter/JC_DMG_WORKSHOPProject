@@ -12,13 +12,13 @@ services:
   packages:
   - name: JC_DMG_WORKSHOPProject
     version: "1.0"
-- serviceName: project.jc_dmg_workshop.integrations:getPersonaDetail
+- serviceName: project.jc_dmg_workshop.integrations:getPassengers
   packages:
   - name: JC_DMG_WORKSHOPProject
     version: "1.0"
-- serviceName: project.jc_dmg_workshop.integrations:setHeaders
+- serviceName: project.dp_cruiseline_661bf2f7cc0b44e78f737e08de15f35d_export.integrations:setHeaders
   packages:
-  - name: JC_DMG_WORKSHOPProject
+  - name: pkg_661bf2f7cc0b44e78f737e08de15f35d_exported
     version: "1.0"
 - serviceName: pub.string:concat
   packages:
@@ -28,11 +28,7 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1032
-- serviceName: pub.json:jsonStreamToDocument
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1032
-- serviceName: pub.flow:getLastFailureCaught
+- serviceName: pub.string:bytesToString
   packages:
   - name: WmPublic
     version: 12.1.0.0.1032
@@ -40,3 +36,35 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1032
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.io:bytesToStream
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.json:jsonStreamToDocument
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.string:replace
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.list:sizeOfList
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: project.jc_dmg_workshop.integrations:getPersonaDetail
+  packages:
+  - name: JC_DMG_WORKSHOPProject
+    version: "1.0"
+- serviceName: project.jc_dmg_workshop.integrations:setHeaders
+  packages:
+  - name: JC_DMG_WORKSHOPProject
+    version: "1.0"
