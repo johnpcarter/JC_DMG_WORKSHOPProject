@@ -7,3 +7,36 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitBranch: main
+services:
+- serviceName: project.jc_dmg_workshop.integrations:echo
+  packages:
+  - name: JC_DMG_WORKSHOPProject
+    version: "1.0"
+- serviceName: project.jc_dmg_workshop.integrations:getPersonaDetail
+  packages:
+  - name: JC_DMG_WORKSHOPProject
+    version: "1.0"
+- serviceName: project.jc_dmg_workshop.integrations:setHeaders
+  packages:
+  - name: JC_DMG_WORKSHOPProject
+    version: "1.0"
+- serviceName: pub.string:concat
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.json:jsonStreamToDocument
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.flow:getLastFailureCaught
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
+- serviceName: pub.string:indexOf
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1032
